@@ -2,7 +2,7 @@ const teamData = [
     {
       position: 'President',
       name: 'Amaira Aggarwal',
-      image: '/images/AmairaAggarwal_President.jpeg',
+      image: '/images/AmairaAggarwal_President.png',
       instagram: 'https://www.instagram.com/anushaaaa.___',
       phone: '9873848895',
       branch: 'MAE',
@@ -13,7 +13,7 @@ const teamData = [
     {
       position: 'President',
       name: 'Nandini Bansal',
-      image: '/images/NandiniBansalPresident.jpg',
+      image: '/images/NandiniBansalPresident.png',
       email: 'samyahkhan15@gmail.com',
       instagram: 'https://www.instagram.com/samyahkhan_/',
       phone: '7042157846',
@@ -25,7 +25,7 @@ const teamData = [
     {
       position: 'Secretary',
       name: 'Urvashi Yadav',
-      image: '/images/UrvashiYadavSec.jpg',
+      image: '/images/UrvashiYadavSec.png',
       instagram: 'https://www.instagram.com/priya.gupta20044',
       phone: '8595712096',
       branch: 'CSE',
@@ -36,7 +36,7 @@ const teamData = [
     {
       position: 'Secretary',
       name: 'Daisy Sorokhaibam',
-      image:'/images/DaisySorokhaibamSecretary.jpg',
+      image:'/images/DaisySorokhaibamSecretary.png',
       instagram: 'https://instagram.com/diya__singla',
       phone: '8929401833',
       branch: 'CSEAI',
@@ -48,7 +48,7 @@ const teamData = [
     {
       position: 'WebD Lead',
       name: 'Anshika Sharma',
-      image: '/images/AnshikaSharma_Webd.jpg',
+      image: '/images/AnshikaSharma_Webd.png',
       instagram: 'https://www.instagram.com/v.oletcv/',
       phone: '7303526753',
       branch: 'AIML',
@@ -98,7 +98,7 @@ const teamData = [
     {
       position: 'PR lead',
       name: 'Vedanshi Mishra',
-      image: '/images/VedanshiPrLead.jpg',
+      image: '/images/VedanshiPrLead.png',
       email: '',
       instagram: '',
       phone: '',
@@ -111,7 +111,7 @@ const teamData = [
     {
       position: 'Sponsorship Head',
       name: 'Siya Khetan',
-      image: '/images/SiyaKhetanSponsiHead.jpg',
+      image: '/images/SiyaKhetanSponsiHead.png',
       email: 'megha081bteceai21@igdtuw.ac.in',
       instagram: '',
       phone: '9818472407',
