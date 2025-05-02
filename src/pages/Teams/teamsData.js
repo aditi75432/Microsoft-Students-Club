@@ -1,8 +1,8 @@
 const teamData = [
     {
       position: 'President',
-      name: 'Anusha Mahajan',
-      image: '/images/Anusha.jpg',
+      name: 'Amaira Aggarwal',
+      image: '/images/AmairaAggarwal_President.jpeg',
       instagram: 'https://www.instagram.com/anushaaaa.___',
       phone: '9873848895',
       branch: 'MAE',
@@ -12,8 +12,8 @@ const teamData = [
     },
     {
       position: 'President',
-      name: 'Samyah Khan',
-      image: '/images/Samyah.jpg',
+      name: 'Nandini Bansal',
+      image: '/images/NandiniBansalPresident.jpg',
       email: 'samyahkhan15@gmail.com',
       instagram: 'https://www.instagram.com/samyahkhan_/',
       phone: '7042157846',
@@ -24,8 +24,8 @@ const teamData = [
     },
     {
       position: 'Secretary',
-      name: 'Priya Gupta',
-      image: '/images/priya.png',
+      name: 'Urvashi Yadav',
+      image: '/images/UrvashiYadavSec.jpg',
       instagram: 'https://www.instagram.com/priya.gupta20044',
       phone: '8595712096',
       branch: 'CSE',
@@ -34,9 +34,9 @@ const teamData = [
       twitter: '',
     },
     {
-      position: 'Treasurer',
-      name: 'Diya Singla',
-      image:'/images/diya.jpg',
+      position: 'Secretary',
+      name: 'Daisy Sorokhaibam',
+      image:'/images/DaisySorokhaibamSecretary.jpg',
       instagram: 'https://instagram.com/diya__singla',
       phone: '8929401833',
       branch: 'CSEAI',
@@ -47,8 +47,8 @@ const teamData = [
     
     {
       position: 'WebD Lead',
-      name: 'Chhavi Verma',
-      image: '/images/chhavi.jpg',
+      name: 'Anshika Sharma',
+      image: '/images/AnshikaSharma_Webd.jpg',
       instagram: 'https://www.instagram.com/v.oletcv/',
       phone: '7303526753',
       branch: 'AIML',
@@ -59,8 +59,8 @@ const teamData = [
 
     {
       position: 'Media Lead',
-      name: 'Navya Raj',
-      image: '/images/navya.png',
+      name: 'Arzoo Patra',
+      image: '/images/ArzooPatra_MediaTeam_Lead.jpg',
       email: '',
       instagram: 'https://www.instagram.com/navyaraj03',
       phone: '9311840911',
@@ -71,8 +71,8 @@ const teamData = [
     },
     {
       position: 'Content lead',
-      name: 'Tavleen Kaur',
-      image: '/images/TavleenKaur.jpeg.jpg',
+      name: 'Shreya Tejan',
+      image: '/images/Shreya Tejan Content Lead.png',
       email: '',
       instagram: 'https://www.instagram.com/tavleen_45',
       phone: '',
@@ -83,8 +83,8 @@ const teamData = [
     },
     {
       position: 'EM lead',
-      name: 'Palak Bakshi',
-      image: '/images/palak.jpg',
+      name: 'Shreya Gupta',
+      image: '/images/Shreya Gupta_EM.jpg',
       email: '',
       instagram: 'https://www.instagram.com/pbakshi04',
       phone: '',
@@ -97,8 +97,8 @@ const teamData = [
 
     {
       position: 'PR lead',
-      name: 'Saloni Singh',
-      image: '/images/saloni.jpg',
+      name: 'Vedanshi Mishra',
+      image: '/images/VedanshiPrLead.jpg',
       email: '',
       instagram: '',
       phone: '',
@@ -108,18 +108,18 @@ const teamData = [
       twitter: '',
     },
 
-    // {
-    //   position: 'temp',
-    //   name: 'Megha Agarwal',
-    //   image: '/images/Megha_Aggarwal.jpeg',
-    //   email: 'megha081bteceai21@igdtuw.ac.in',
-    //   instagram: '',
-    //   phone: '9818472407',
-    //   branch: 'ECEAI',
-    //   year: '2',
-    //   linkedin: 'www.linkedin.com/in/megha-agarwal-13150222b',
-    //   twitter: '',
-    // },
+    {
+      position: 'Sponsorship Head',
+      name: 'Siya Khetan',
+      image: '/images/SiyaKhetanSponsiHead.jpg',
+      email: 'megha081bteceai21@igdtuw.ac.in',
+      instagram: '',
+      phone: '9818472407',
+      branch: 'ECEAI',
+      year: '2',
+      linkedin: 'www.linkedin.com/in/megha-agarwal-13150222b',
+      twitter: '',
+    },
    
   ];
   
