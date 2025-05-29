@@ -13,9 +13,10 @@ const MainSection = () => {
           imageSrc={member.image}
           profession={member.position}
           socialLinks={[
-            { url: member.instagram, icon: 'fa fa-instagram' },
-            { url: member.linkedin, icon: 'fa fa-linkedin' },
+            { url: member.instagram, icon: 'instagram' },
+            { url: member.linkedin, icon: 'linkedin' },
           ]}
+
         />
       ))}
     </div>
