@@ -1,5 +1,7 @@
 import React from 'react';
 import './Card.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 const Card = ({ name, imageSrc, profession, socialLinks }) => {
@@ -14,16 +16,24 @@ const Card = ({ name, imageSrc, profession, socialLinks }) => {
       <div className="card__social" id="card-social">
         <div className="card__social-control">
 
-          {/* icons dont show */}
-          <ul className="card__social-list">
-            {socialLinks.map((link, index) => (
+        <ul className="card__social-list">
+          {socialLinks.map((link, index) => {
+            let icon;
+
+            // Choose the correct icon based on the string
+            if (link.icon === 'instagram') icon = faInstagram;
+            if (link.icon === 'linkedin') icon = faLinkedin;
+
+            return (
               <li key={index} className="card__social-item">
-                <a href={link.url} className="card__social-link">
-                  <i className={link.icon}></i>
+                <a href={link.url} className="card__social-link" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={icon} size="lg" />
                 </a>
               </li>
-            ))}
-          </ul>
+            );
+          })}
+        </ul>
+
 
           {/* substitute icons w numbers, now it works, but does not show w css */}
           {/* <ul className="card__social-list">
