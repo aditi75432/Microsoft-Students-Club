@@ -5,7 +5,7 @@ import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 const Card = ({ name, imageSrc, profession, socialLinks }) => {
-  console.log(imageSrc);
+  // console.log(imageSrc);
   return (
     <div className="cardteam" data-aos="flip-right" data-aos-duration="1000">
       <div className="card__border">
@@ -17,21 +17,21 @@ const Card = ({ name, imageSrc, profession, socialLinks }) => {
         <div className="card__social-control">
 
         <ul className="card__social-list">
-          {socialLinks.map((link, index) => {
-            let icon;
+          {socialLinks
+            .filter(link => link.url && link.url.trim() !== '')
+            .map((link, index) => {
+              let icon;
+              if (link.icon === 'instagram') icon = faInstagram;
+              if (link.icon === 'linkedin') icon = faLinkedin;
 
-            // Choose the correct icon based on the string
-            if (link.icon === 'instagram') icon = faInstagram;
-            if (link.icon === 'linkedin') icon = faLinkedin;
-
-            return (
-              <li key={index} className="card__social-item">
-                <a href={link.url} className="card__social-link" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={icon} size="lg" />
-                </a>
-              </li>
-            );
-          })}
+              return (
+                <li key={index} className="card__social-item">
+                  <a href={link.url} className="card__social-link" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={icon} size="lg" />
+                  </a>
+                </li>
+              );
+            })}
         </ul>
 
 
