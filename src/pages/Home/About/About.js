@@ -20,7 +20,7 @@ function About() {
         stuff we have in store for you all!
       </div>
       <img
-        src="./images/home_background.jpg"
+        src="./images/TeamPic2425.jpg"
         className="imagesection"
         data-aos="fade-right"
         data-aos-duration="500"
