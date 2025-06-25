@@ -28,24 +28,57 @@ function Head() {
       {/* Image Container */}
       <div className="w-full relative">
         <img
-          src="./images/HACK-IT-UP-homepage.png"
-          alt="hack it up banner"
+          src="./images/bootcamp banner.jpg"
+          alt="Summer Bootcamp Banner 2025"
           className="w-full h-auto object-cover"
         />
       </div>
 
       {/* Know More Button */}
-      <div
-        onClick={() => navigate("/hackitup")}
-        className="cursor-pointer bg-[#0476D1] hover:bg-[#56E2F4] rounded-xl
-          text-white transition duration-300 ease-in-out text-center
-          transform hover:scale-105 my-6"
-        style={buttonStyle}
-        data-aos="fade-up"
-        data-aos-duration="200"
-      >
-        Know More!
-      </div>
+      <div className="flex flex-wrap justify-center gap-4">
+  <a
+    href="https://forms.cloud.microsoft/r/iaUEvFHcJx"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cursor-pointer bg-[#0476D1] hover:bg-[#56E2F4] rounded-xl
+      text-white transition duration-300 ease-in-out text-center
+      transform hover:scale-105 my-6 px-6 py-3"
+    style={buttonStyle}
+    data-aos="fade-up"
+    data-aos-duration="200"
+  >
+    Call For Mentees
+  </a>
+
+  <a
+    href="https://example.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cursor-pointer bg-[#0476D1] hover:bg-[#56E2F4] rounded-xl
+      text-white transition duration-300 ease-in-out text-center
+      transform hover:scale-105 my-6 px-6 py-3"
+    style={buttonStyle}
+    data-aos="fade-up"
+    data-aos-duration="200"
+  >
+    Call For Mentors
+  </a>
+
+  <a
+    href="https://example.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cursor-pointer bg-[#0476D1] hover:bg-[#56E2F4] rounded-xl
+      text-white transition duration-300 ease-in-out text-center
+      transform hover:scale-105 my-6 px-6 py-3"
+    style={buttonStyle}
+    data-aos="fade-up"
+    data-aos-duration="200"
+  >
+    Call For Sponsors
+  </a>
+</div>
+
 
       {/* Content Section */}
       <div className="w-full px-4 md:px-8 mt-4 md:mt-8">
